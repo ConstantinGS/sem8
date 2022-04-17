@@ -12,7 +12,7 @@ namespace ConsoleApp
 
             int[,] arrayDouble = new int[5,5];
             var rand = new Random();
-            orderArray(createArray(arrayDouble));
+            arrayDouble = orderArray(createArray(arrayDouble));
 
             int[,] createArray(int [,] array)
             {
@@ -30,7 +30,7 @@ namespace ConsoleApp
             }
 
 
-            void orderArray(int [,] arrayD)
+            int[,] orderArray(int [,] arrayD)
             {
                
 
@@ -40,23 +40,30 @@ namespace ConsoleApp
                         { 
                         for (int j=0; j<5; j++)
                             {
-                                if ( arrayD[k,i]<arrayD[k,j])
+                                if ( arrayD[k,j]<arrayD[k,i])
                                 {
-                                    int max = arrayD[k,j];
+                                    int min = arrayD[k,j];
                                     arrayD[k,j]  = arrayD[k,i];
-                                    arrayD[k,i] = max;
+                                    arrayD[k,i] = min;
                                     
                                 }
                             }
-                            Console.Write($" {arrayD[k,i]} ");
+                            
                         }
-                        Console.WriteLine();
-
-                        
+ 
                 }
-               
+                return  arrayD;
+            }
 
 
+            for (int i=0; i<5; i++)
+            { 
+                for (int j=0; j<5; j++)
+                {
+                    Console.Write($" {arrayDouble[i,j]} ");
+                }
+   
+                Console.WriteLine();  
             }
 
             

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Image\\.nuget\\packages\\": {}
+    "C:\\Users\\grish\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Image\\Desktop\\C#\\sem8\\sem8\\ex54\\ex54.csproj",
+      "projectUniqueName": "C:\\Users\\grish\\OneDrive\\Desktop\\seminar_C\\sem8\\sem\\sem8\\ex54\\ex54.csproj",
       "projectName": "ex54",
-      "projectPath": "C:\\Users\\Image\\Desktop\\C#\\sem8\\sem8\\ex54\\ex54.csproj",
-      "packagesPath": "C:\\Users\\Image\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Image\\Desktop\\C#\\sem8\\sem8\\ex54\\obj\\",
+      "projectPath": "C:\\Users\\grish\\OneDrive\\Desktop\\seminar_C\\sem8\\sem\\sem8\\ex54\\ex54.csproj",
+      "packagesPath": "C:\\Users\\grish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grish\\OneDrive\\Desktop\\seminar_C\\sem8\\sem\\sem8\\ex54\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Image\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\grish\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
